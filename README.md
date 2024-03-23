@@ -5,7 +5,7 @@ Este repositório visa armazenar uma coleção de projetos focados em práticas 
 ## Estrutura do Repositório
 
 ### Lading Pages: 
- - BalleBot e BalleCoffee: Projetos HTML e CSS criados e ministrados pela @rafaballerini com foco na utilização de diferentes técnicas de estilização. 
+ - BalleBot e BalleCoffee: Projetos HTML e CSS criados e ministrados pela [@rafaballerini](https://(https://github.com/rafaballerini) com foco na utilização de diferentes técnicas de estilização. 
 
 ## Autores
  - [Landing Page Balle Bot](https://www.youtube.com/watch?v=llF6vD-RljE&t=1369s&pp=ygUUbGFkaW5nIHBhZ2UgYmFsZXJpbmk%3D)
