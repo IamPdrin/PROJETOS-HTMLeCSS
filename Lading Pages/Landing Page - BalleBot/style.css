@@ -1,0 +1,144 @@
+/*Importação de Fonte:*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/*Reset css web:*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    font-size: 100%;
+    background: linear-gradient(70.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-attachment: fixed;
+}
+
+/*Header*/
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img-header {
+    height: 72px;
+}
+
+.sub-container-header {
+    display: flex;
+    gap: 35px;
+}
+
+.item-header {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.item-header:hover{
+    color: #2F2325;
+}
+
+/*Main*/
+
+    /*First part*/
+.container-main {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.first-content-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sub-container-first {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item-first-h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.item-first-h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ECD6C4;
+}
+
+.button-main {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2F2325;
+
+}
+.button-main:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.img-first {
+    height: 430px;
+}
+
+
+    /*Second part*/  
+
+.second-content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.item-second-h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.item-second-p {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ECD6C4;
+}
+
+
+.container-footer {
+    padding: 35px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.item-footer {
+    display: block;
+    margin: 70px auto;
+    height: 50px;
+    
+}

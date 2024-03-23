@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600;700&family=Montserrat:wght@800&family=Teko:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: #1F1517;
+    color: #ffffff;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+    color: #FFF2E780;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.general-hero-container {
+    background: #181012;
+}
+
+.hero {
+    max-width: 1120px;
+    height: 60vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #A45A49;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color:#A45A49;
+}
+
+.hero-subtitulo{
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.hero-imagens-container {
+    column-count: 3;
+    column-gap: 30px;
+    margin: 0 20px 0 10px
+}
+
+.general-button-container{
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+
+button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #A45A49;
+    margin-top: -5rem;
+    margin-left: 2rem;
+}
+
+
+.general-rec-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.header-rec{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.titulo-rec {
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF2E7;
+}
+
+.subtitulo-rec {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    color:#C7BAB3;
+}
+
+.rec-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-left: 2.5rem;
+}
+
+.rec-card {
+    background: #241A1C;
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+
+.header-rec-card {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.item-header-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.amarelo {
+    color: #E7A80E;
+}
+
+.secondItem-header-card{
+    color: #756A67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.rec-card > p {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.user-rec-card {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.user-rec-card > img {
+    width: 1.5rem;
+    border-radius: 20rem;
+}
+
+.user-rec-card > span {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer {
+    background:#23181A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 4rem;
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer-autor {
+    color:#FFF2E780;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+
