@@ -1,4 +1,4 @@
-#Projetos HTML e CSS
+# Projetos HTML e CSS
 
 Este repositório visa armazenar uma coleção de projetos focados em práticas de estilização de sites utilizando HTML e CSS puros. Cada projeto é um exemplo prático de diferentes técnicas e conceitos de design web, desde layouts simples até designs mais complexos.
 
